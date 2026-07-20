@@ -7,14 +7,14 @@ let num =10;
 let bool = true;
 let j=null;;
 let m=undefined;
-let number = 123456789n;
+let BigInt = 123456789n;
 
 console.log(string);
 console.log(num);
 console.log(bool);
 console.log(j);
 console.log(m);
-console.log(number);
+console.log(BigInt);
 
 //Primitive data type values are stored by value
 let a =10;

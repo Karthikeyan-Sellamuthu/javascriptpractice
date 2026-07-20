@@ -23,7 +23,7 @@ function getRequestToken(callback){
        console.log('System called the getRequestToken API to fetch the request Token');
        callback();
     },10000)
-
+   console.log('Env Ready');
 }
 
 function getUserDetails(){

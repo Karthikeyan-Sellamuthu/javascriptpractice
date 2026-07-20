@@ -80,10 +80,10 @@ console.log(ns.reverse());
 console.log(ns.sort());
 
 //ascending order using comparison function
-console.log(ns.sort((a,b)=>a-b));
+console.log(ns.sort((a,b)=>(a-b)));
 
 //descending order using comparison function
-console.log(ns.sort((a,b)=>b-a));
+console.log(ns.sort((a,b)=>(b-a)));
 
 let p=[1,2,3,4,5,6]
 console.log(p.length)
